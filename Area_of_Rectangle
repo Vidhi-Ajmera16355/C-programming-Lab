@@ -1,0 +1,10 @@
+#include <stdio.h>
+void main(){
+    int l , b , area;
+    printf("Enter Length(l):\n");
+    scanf("%d",&l);
+    printf("Enter Breadth(b):\n");
+    scanf("%d",&b);
+    area=l*b;
+    printf("Area of rectangle=%d",area);
+}
