@@ -1,0 +1,12 @@
+#include <stdio.h>
+void main(){
+    float days,weeks,months,years;
+    printf("Enter number of days:\n");
+    scanf("%f",&days);
+    weeks=days/7;
+    printf("Weeks=%.2f\n",weeks);
+    months=days/12;
+    printf("Months=%.2f\n",months);
+    years=days/365;
+    printf("Years=%.2f\n",years);
+}
